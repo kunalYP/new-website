@@ -412,7 +412,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 991px) {
   #hero .intro-info h2 {
-    font-size: 34px;
+    font-size: 24px;
     margin-bottom: 30px;
   }
 }
@@ -446,7 +446,7 @@ section {
 /* Sections Header
 --------------------------------*/
 .section-header h3 {
-  font-size: 36px;
+  font-size: 26px;
   color: #413e66;
   text-align: center;
   font-weight: 700;
@@ -540,6 +540,9 @@ section {
 }
 
 @media (max-width: 991px) {
+  #who_are_we_p{
+    font-size: 14px;
+  }
   #why-us .why-us-content {
     padding-top: 30px;
   }
@@ -599,12 +602,13 @@ section {
 
 #call-to-action .cta-title {
   color: #fff;
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 700;
 }
 
 #call-to-action .cta-text {
   color: #fff;
+  font-size:14px;
 }
 
 @media (min-width: 991px) {
@@ -654,7 +658,7 @@ section {
   margin: 15px 15px 15px 0;
   display: inline-block;
   padding: 6px 10px;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 20px;
   color: #413e66;
   margin-bottom: 5px;
@@ -959,10 +963,10 @@ section {
   display: block;
   position: relative;
   font-family: #1bb1dc;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 24px;
   font-weight: 400;
-  padding-left: 25px;
+  padding-left: 0px 5px 0px 0px;
   cursor: pointer;
   color: #158caf;
   transition: 0.3s;
@@ -971,13 +975,14 @@ section {
 #faq .faq-list i {
   font-size: 16px;
   position: absolute;
-  left: 0;
+  right: 0;
   top: -2px;
 }
 
 #faq .faq-list p {
+  font-size:14px;
   margin-bottom: 0;
-  padding: 10px 0 0 25px;
+  padding: 10px 0 0 0px;
 }
 
 #faq .faq-list .icon-show {
@@ -1056,8 +1061,8 @@ section {
   margin-bottom: 30px;
 }
 
-#footer .footer-top .footer-info h3 {
-  font-size: 34px;
+#footer .footer-top .footer-info img {
+  font-size: 20px;
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
@@ -1074,6 +1079,10 @@ section {
   margin-bottom: 0;
   font-family: "Montserrat", sans-serif;
   color: #535074;
+}
+
+.footer-info img{
+  height:30px;
 }
 
 #footer .footer-top .social-links a {
