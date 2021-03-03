@@ -654,7 +654,7 @@ section {
 
 /* Portfolio Section
 --------------------------------*/
-
+/* 
 #portfolio {
   padding: 60px 0;
 }
@@ -782,7 +782,7 @@ section {
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
-
+/* 
 .portfolio-details {
   padding-top: 40px;
 }
@@ -843,13 +843,15 @@ section {
 
 .portfolio-details .portfolio-description p {
   padding: 0;
-}
+}  */
 
 /* Testimonials Section
 --------------------------------*/
 
 #testimonials {
   padding: 60px 0;
+  background: #f5f8fd url("../img/intro-bg.jpg") center top no-repeat;
+  background-size: cover;
 }
 
 #testimonials .section-header {
@@ -930,6 +932,7 @@ section {
 
 #clients {
   padding: 60px 0;
+ 
 }
 
 #clients img {
@@ -1103,7 +1106,7 @@ section {
 }
 
 .footer-info img {
-  height: 30px;
+  height: 27px;
 }
 
 #footer .footer-top .social-links a {
